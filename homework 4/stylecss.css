@@ -1,0 +1,71 @@
+body
+{
+
+  background-image: url(reka.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+
+}
+
+#h1
+{
+  text-align: center;
+  font-size: 80px;
+  color: rgb(0, 0, 255, 0.3);
+  border-style: double;
+}
+
+
+#p1
+{
+ width: 300px;
+ height: 300px;
+ margin-left: 200px;
+ margin-top: 100px;
+ border-style: dashed;
+ border-width: medium;
+ border-color: white;
+}
+
+
+#p2
+{
+  width: 300px;
+  height: 300px;
+  margin-left: 320px;
+  border-style: dashed;
+  border-width: medium;
+  border-color: white;
+}
+
+
+#div1
+{
+ text-align: center;
+ font-size: 40px;
+ color: white;
+ border-style: outset;
+}
+
+textarea
+{
+  margin-left: 450px;
+  text-align: right;
+}
+
+
+#button
+{
+ margin-left: 780px;
+}
+
+
+#footer
+{
+ font-size: 35px;
+ font-weight: bold;
+ font-style: italic;
+ text-align: center;
+ color: white;
+}
