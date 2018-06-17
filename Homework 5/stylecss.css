@@ -1,0 +1,79 @@
+table
+{
+  height: 70%;
+  width: 35%;
+  border: 2px solid black;
+  text-align: center;
+  border-collapse: collapse;
+  transform: rotate(50deg);
+  transform-origin: 340px 720px;
+}
+
+td
+{
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+
+#a:hover
+{
+
+ background-color: green;
+ color: white;
+}
+
+#b:hover
+{
+
+ background-color: yellow;
+ color: white;
+}
+
+#c:hover
+{
+
+ background-color: purple;
+ color: white;
+}
+
+#d:hover
+{
+
+ background-color: black;
+ color: white;
+}
+
+#e:hover
+{
+
+ background-color: rgb(0, 180, 255);
+ color: white;
+}
+
+#f:hover
+{
+
+ background-color: blue;
+ color: white;
+}
+
+#g:hover
+{
+
+ background-color: red;
+ color: white;
+}
+
+#h:hover
+{
+
+ background-color: pink;
+ color: white;
+}
+
+#i:hover
+{
+
+ background-color: brown;
+ color: white;
+}
