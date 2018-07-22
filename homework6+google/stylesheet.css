@@ -1,0 +1,29 @@
+img
+{
+  width: 200px;
+  height: 200px;
+  filter: blur(2px);
+  transition-property: width height transform;
+  transition-duration: 3s;
+  animation-name: aa;
+  animation-duration: 2s;
+  animation-delay: 30s;
+  position: relative;
+
+
+}
+
+
+img:hover
+{
+  width: 500px;
+  height: 500px;
+  filter: none;
+  border-radius: 50px;
+}
+
+@keyframes aa
+ {
+  from{left: 0px; top:0px;}
+  to {left:600px; top:0px;}
+}

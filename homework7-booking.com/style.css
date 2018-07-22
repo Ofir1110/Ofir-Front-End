@@ -1,0 +1,316 @@
+#div1
+{
+  background-color: rgb( 0, 18, 145);
+  width: 1355px;
+  height:100px;
+  border:1px solid rgb( 0, 18, 145);
+  outline-color:  rgb( 0, 18, 145);
+}
+
+#div2
+{
+  background-color: rgb( 245, 245, 245);
+  height: 270px;
+  width: 1350px;
+}
+
+#booking
+{
+ width: 160px;
+ height:25px;
+ margin-left: 1060px;
+ margin-top: 15px;
+}
+
+#shekel
+{
+  position: absolute;
+  color: white;
+  margin-left: 740px;
+  margin-top: 18px;
+}
+
+#flag
+{
+  width: 18px;
+  height: 19px;
+  margin-left: 690px;
+  margin-top: 15px;
+  position: absolute;
+}
+
+#sentence
+{
+  position: absolute;
+  text-align: center;
+  margin-left:545px;
+  margin-top: 15px;
+  color: white;
+  font-weight: bold;
+  font-size: 13px;
+  font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+}
+
+
+#addplace
+{
+  height: 15px;
+  width: 200px;
+  color:white;
+  border-color: white;
+  border-style: solid;
+  border-radius: 3px;
+  border-width: thin;
+  position: absolute;
+  margin-left: 305px;
+  margin-top: 8px;
+  padding: 9px;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+}
+
+#addplace:hover
+{
+  background-color: rgb( 0, 30, 170);
+}
+
+#button
+{
+  position: absolute;
+  padding: 7px;
+  margin-left: 140px;
+  margin-top: 12px;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  font-size: 12px;
+  border-radius: 5px;
+  font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+}
+
+#button:hover
+{
+  color: rgb( 0, 110, 255);
+}
+
+#button1
+{
+  position: absolute;
+  padding: 7px;
+  margin-left: 235px;
+  margin-top: 12px;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  font-size: 12px;
+  border-radius: 5px;
+  font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+}
+
+#button1:hover
+{
+  color: rgb( 0, 110, 255);
+}
+
+
+#place
+{
+  position: absolute;
+  background-color: rgb( 0, 18, 145);
+  border-color: rgb( 0, 18, 145);
+  border-style: none;
+  margin-left: 140px;
+  color:white;
+  padding: 7px;
+  font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+}
+
+#place:hover
+{
+  background-color: rgb( 0, 30, 170);
+}
+
+#flight
+{
+  position: absolute;
+  background-color: rgb( 0, 18, 145);
+  border-color: rgb( 0, 18, 145);
+  border-style: none;
+  margin-left: 230px;
+  color:white;
+  padding: 7px;
+  font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+}
+
+#flight:hover
+{
+  background-color: rgb( 0, 30, 170);
+}
+
+#rentcar
+{
+  position: absolute;
+  border-color: rgb( 0, 18, 145);
+  border-style: none;
+  background-color: rgb( 0, 18, 145);
+  margin-left: 300px;
+  color:white;
+  padding: 7px;
+  font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+}
+
+#rentcar:hover
+{
+  background-color: rgb( 0, 30, 170);
+}
+
+#taxi
+{
+  position: absolute;
+  border-color: rgb( 0, 18, 145);
+  border-style: none;
+  background-color: rgb( 0, 18, 145);
+  margin-left: 395px;
+  color:white;
+  padding: 7px;
+  font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+}
+
+#taxi:hover
+{
+  background-color: rgb( 0, 30, 170);
+}
+
+#deals
+{
+  position: absolute;
+  font-size: 24px;
+  font-weight: 500;
+  color: rgb(0, 25, 60);
+  margin-left: 995px;
+  margin-top: 50px;
+  font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+}
+
+#villagecity
+{
+  position: absolute;
+  font-size: 15px;
+  color: rgb(0, 25, 60);
+  margin-left: 935px;
+  margin-top: 82px;
+  font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+}
+
+#table1
+{
+  position: absolute;
+  width: 1100px;
+  height:60px;
+  border: 4px solid rgb( 235, 175, 0);
+  margin-left: 125px;
+  margin-top: 120px;
+  color: rgb(0, 25, 60);
+  text-align: right;
+  font-size: 13px;
+  font-weight: 500;
+  border-collapse: collapse;
+  background-color: white;
+  font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+}
+
+#tr1
+{
+  width: 100%;
+  height: 20%;
+  border: 4px solid rgb( 235, 175, 0);
+
+}
+
+#td1
+{
+  width: 10%;
+  border: 4px solid rgb( 235, 175, 0);
+  font-size: 20px;
+    line-height: 28px;
+    font-weight: 500;
+    text-align: center;
+    color: white;
+    background: #07c;
+
+}
+
+#td2
+{
+  width: 20%;
+  border: 4px solid rgb( 235, 175, 0);
+}
+
+#td3
+{
+  width: 15%
+  border: 4px solid rgb( 235, 175, 0);
+}
+
+#td4
+{
+  width: 50%;
+  border: 4px solid rgb( 235, 175, 0);
+}
+
+#business
+{
+  position: absolute;
+  margin-left: 1110px;
+  margin-top: 190px;
+  font-size: 13px;
+  color: rgb(0, 25, 60);
+  font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+}
+
+#tel_aviv_p
+{
+  position: absolute;
+  width: 530px;
+  height:270px;
+  margin-top: 40px;
+  margin-left: 120px;
+}
+
+#eilat_p
+{
+  position: absolute;
+  width: 550px;
+  height:270px;
+  margin-left: 665px;
+  margin-top: 40px;
+}
+
+#rosh_pina_p
+{
+  position: absolute;
+  width: 350px;
+  height:270px;
+  margin-top: 330px;
+  margin-left: 120px;
+}
+
+#haifa_p
+{
+  position: absolute;
+  width: 350px;
+  height:270px;
+  margin-top: 330px;
+  margin-left: 490px;
+}
+
+#ein_bokek_p
+{
+  position: absolute;
+  width: 350px;
+  height:270px;
+  margin-top: 330px;
+  margin-left: 865px;
+}
