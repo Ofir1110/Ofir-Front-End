@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+</head>
+<body>
+
+<input type="number" id="inp1">
+<div id="div1"  style="background-color: blue; height:30px; width:30px; "></div>
+<div id="div2"  style="background-color: green; height:30px; width:30px; "></div>
+<div id="div3"  style="background-color: red; height:30px; width:30px; "></div>
+<button id="btn1" onclick="func1()">Click</button>
+
+
+
+    <script>
+
+
+      function func1(){
+
+        var choose = document.getElementById("inp1").value;
+        $(document).ready(function(){
+          if(choose==1){
+            $("#div1").slideToggle();
+          }
+          else if(choose==2){
+            $("#div2").fadeToggle("slow");
+          }
+          else if(choose==3){
+            $("#div3").fadeToggle();
+          }
+          else{
+            $("#div1").fadeToggle();
+            $("#div2").fadeToggle();
+            $("#div3").fadeToggle();
+          }
+        });
+      }
+
+
+
+
+
+      </script>
+</body>
+</html>
