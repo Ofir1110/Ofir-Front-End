@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+ <head>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+ </head>
+ <body>
+
+	<input type="text" id="textBox">
+	<br>
+	<button id="btn">search</button>
+	<label id="bl"></label>
+
+
+
+	<script>
+	$(document).ready(function(){
+		$("#btn").click(function(){
+			$.ajax({
+				url: "DB.CSV",
+				dataType: "text",
+				success: function(data){
+					var cellData = data.split(/\r?\n|\r/);
+					var input1 = document.getElementById("textBox").value;
+					var counter = 0 , i = 0,j=0 ,temp = "";
+					for(;i<cellData.length ; i++){
+						for(j=0;j<cellData[i].length;j++){
+							if(cellData[i]!=','||cellData[i].length-1==j){
+								temp+=cellData[i][j];
+							}
+							if(cellData[i][j]==','||cellData[i].length-1==j){
+								if(input1==temp){
+									counter++;
+									
+								}
+								temp="";
+							}
+
+						}
+					}
+					document.getElementById("bl").innerHTML=counter;
+
+
+				}
+			});
+		});	
+	});
+	
+	
+	
+	
+	
+	
+	
+	</script>
+
+
+
+
+ </body>
+</html>
+
